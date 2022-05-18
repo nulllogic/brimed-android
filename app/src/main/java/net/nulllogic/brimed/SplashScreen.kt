@@ -3,7 +3,6 @@ package net.nulllogic.brimed
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import java.util.concurrent.Executors
 import java.util.concurrent.ScheduledExecutorService
 import java.util.concurrent.TimeUnit
@@ -12,6 +11,7 @@ class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
+        setContentView(R.layout.activity_splashscreen)
 
         // Create an executor that executes tasks in a background thread.
         val backgroundExecutor: ScheduledExecutorService = Executors.newSingleThreadScheduledExecutor()
