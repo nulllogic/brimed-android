@@ -12,7 +12,6 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
         setContentView(R.layout.activity_splashscreen)
-
         // Create an executor that executes tasks in a background thread.
         val backgroundExecutor: ScheduledExecutorService = Executors.newSingleThreadScheduledExecutor()
         // Execute a task in the background thread after 3 seconds.
