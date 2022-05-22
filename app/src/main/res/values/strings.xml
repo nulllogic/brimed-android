@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Brimed</string>
     <string name="background">Background</string>
+    <string name="splashscreen_welcome">Добро пожаловать!</string>
+    <string name="splashscreen_description">Данное приложение создано для людей, которые желают оставаться здоровыми и поддерживать своё состояние простыми медицинскими препаратами!</string>
 </resources>
